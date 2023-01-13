@@ -1,0 +1,65 @@
+<!--COPYRIGHT 2023 LOUIS DURUT
+VERSION 13.01.2023
+ALL USES ARE ALLOWED
+MADE WITH HTML, CSS, JAVASCRIPT
+MADE SOME CATEGORIES WITH CHATGPT-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="Louis Durut">
+    <meta name="description" content="Snake game">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./img/icons/icons8-snake-48.png" type="image/x-icon">
+
+
+    <title>Snake Game by Louis Durut</title>
+</head>
+<body>
+      
+            <div id="texte">
+                <h1>Hi everyone !</h1>
+                <p>and welcome to the first game I code! For this experiment, I used ChatGPT which helped me in the Javascript code. Enjoy and may the best win !</p>
+            </div>
+        
+            <canvas id="snake-game" width="500" height="500"></canvas>
+    
+            <div id="score-container">
+                <p id="score">Score : 0</p>
+            </div>
+            <section id="welcome_board">
+                <div id="scoreboard-container">
+                    <h2>Scoreboard</h2>
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>Username</th>
+                            <th>Score</th>
+                            <th>Date</th>
+                          </tr>
+                        </thead>
+                        <tbody id="scoreboard"></tbody>
+                      </table>
+                    </div>
+
+                    <ul id="scoreboard"></ul>
+                </div>
+                <div id="submit-score-container">
+                    <form>
+                      <label for="username-input">Username:</label>
+                      <input type="text" id="username-input" name="username">
+                      <label for="score-input">Score:</label>
+                      <input type="text" id="score-input" name="score">
+                      <button type="button" id="submit-score-btn">Submit</button>
+                    </form>
+                  </div>
+            </section>
+
+            <button id="retry-btn" style="display: none;">Retry</button>
+       
+    <script src="./js/script.js"></script>
+</body>
+</html>

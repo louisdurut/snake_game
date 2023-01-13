@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-y: none;
+    background-color: beige
+}
+
+#snake-game {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    display: block;
+    margin: auto;
+}
+
+#welcome_board{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#score-container {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: #000;
+    border-radius: 10px;
+}
+  
+#score {
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px #000;
+}
+
+#texte{
+    text-align: center;
+}
